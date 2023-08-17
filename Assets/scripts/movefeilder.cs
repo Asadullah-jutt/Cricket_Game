@@ -49,7 +49,7 @@ public class movefeilder : MonoBehaviour
         pos = new Vector3(transform.position.x, transform.position.y, transform.position.z);
         angle = new Quaternion(transform.rotation.x, transform.rotation.x, transform.rotation.x,Quaternion.kEpsilon);
         fivehash = Animator.StringToHash("dive");
-        transform.rotation = playerpos.rotation;
+      //  transform.rotation = playerpos.rotation;
     }
     public void setflag()
     {

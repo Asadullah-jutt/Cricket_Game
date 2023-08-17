@@ -118,6 +118,7 @@ public class gamemanager : MonoBehaviour
 
     public void setcammain()
     {
+        togle = 1;
         topcam.SetActive(false);
         maincam.SetActive(true);
     }
